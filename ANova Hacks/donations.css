@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  
+}
+
+/* Style the header */
+header {
+  background-color: #967096;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+.img-1 {
+  width: 500px;
+  hight: 500px;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -ms-flex: 1;
+  flex: 3;
+  border-right: 1px solid black;
+  padding: 2px;
+}
+img {
+  height: px;
+  width: 400px;
+}
+org1 {
+  margin: 0px;
+}
+
+.org-2 {
+  margin: 100;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  color: black;
+  font-size: 50px;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

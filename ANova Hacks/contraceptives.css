@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+.stroke {
+  
+}
+body {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.5px;
+  margin: 0px;
+  margin-top
+
+}
+.jumbotron{
+  background-color: #A1F4E6;
+  text-align: center;
+  font-size: 38px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+
+}
+.space {
+  text-align: center;
+  font-size: 30px;
+}
+
+.jumbotron h2 ,p{
+  margin: 10px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 0px;
+  font-family: 'Lobster', cursive;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 600px; /* only for demonstration, should be removed */
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.footer-text {
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

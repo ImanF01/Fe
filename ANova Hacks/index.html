@@ -7,45 +7,68 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:700|Julius+Sans+One|Playfair+Display:700|Satisfy" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
  
 <body>
+    <section id="sec0">
+        <div class="slide slide0">
+            <div class="slideText text0">
+                <h1 data-aos="fade-up">Feminine Hygiene</h1>
+                <button onclick="location.href = 'quiz.html'">Take the Quiz</button>
+            </div>
+        </div>
+    </section>
+<!--
+    <section id="secQ">
+        <div id="container">
+        <div id="start" class="slideText textQ">Start Quiz!</div>
+                <div id="quiz" style="display: none">
+                    <div id="question"></div>
+                    <div id="choices">
+                        <div class="choice" id="choiceA"></div>
+                        <div class="choice" id="choiceB"></div>
+                        <div class="choice" id="choiceC"></div>
+                    </div>
+                    <div id="progress"></div>
+                </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
+    </section>
+-->
+    <section id="sec1">
+        <div class="slide slide1">
+            <div class="slideText text1">
+                <h1 data-aos="fade-up">Hygiene Issues</h1>
+                <button onclick="location.href = 'contraceptives.html'" class="float-left submit-button" ><i class="fas fa-arrow-right"></i></button>
 
-<div class="sidebar">
-    <a href="#">Feminine Hygiene</a>
-    <a href="#">Menstruation</a>
-    <a href="#">Birth Control</a>
-</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec2">
+        <div class="slide slide2">
+            <div class="slideText text2">
+                <h1 data-aos="fade-up">Contraceptives</h1>
+                <button onclick="location.href = 'hygieneissues.html'" class="float-left submit-button" ><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
     
-<section id="sec0">
-    <div class="slide slide0">
-        <div class="slideText text0">
-            <h1 data-aos="fade-up">Feminine Hygiene</h1>
+     <section id="sec3">
+        <div class="slide slide3">
+            <div class="slideText text3">
+                <h1 data-aos="fade-up">Donations</h1>
+                <button onclick="location.href = 'donations.html'"  class="float-left submit-button" ><i class="fas fa-arrow-right"></i></button>
+            </div>
         </div>
-    </div>
-</section>
-
-<section id="sec1">
-    <div class="slide slide1">
-        <div class="slideText text1">
-            <h1 data-aos="fade-up">Menstruation</h1>
-        </div>
-    </div>
-</section>
-
-<section id="sec2">
-    <div class="slide slide2">
-<!--        <img src="assests/surfblog.jpg">-->
-        <div class="slideText text2">
-            <h1 data-aos="fade-up">Birth Control</h1>
-        </div>
-    </div>
-</section>
- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-        duration: 1200,
-    })
-  </script>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,
+        })
+    </script>
+    <script src="quiz.js"></script>
 </body>
 </html>

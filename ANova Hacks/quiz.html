@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Feminine Knowledge Quiz</title>
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+  <script type ="text/javascript" src= "script.js"></script>
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400" rel="stylesheet">
+  
+  <h1>Feminine Knowledge Quiz</h1>
+  <form id="form1">
+
+    <h2>How long are periods?</h2>
+    <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />4 weeks</label>
+    <label for="var_join"><input type="radio" name="variable" value="25" id="var_join" />3-8 days</label>
+    <label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />years dude</label>
+
+    <h2>Which state has taxes on hygiene products(tampons, pads, etc.)?</h2>
+    <label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>California
+</label>
+    <label for="sub_join"><input type="radio" name="sub" value="25" id="sub_join"/>New Jersey</label>
+    <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Texas</label>
+      
+    <h2>Can I reuse hygiene products?</h2>
+    <label for="cat_string"><input type="radio" name="con" value="25" id="cat_string" />absolutely not</label>
+    <label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" />hellz yeah </label>
+    <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />both a & b</label>
+
+    <h2>Do all women have access to affordable hygiene products?</h2>
+    <label for="if_string"><input type="radio" name="ifstate" value="25" id="if_string" />No unfortunately</label>
+    <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Duh equality</label>
+    <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />They might not be affordable, but they have access</label>
+
+    <button type="submit" value="Submit">Submit</button>
+
+  </form>
+
+  <p>Your score is: <span id="score">___</span></p>
+  <p id="score2"></p>
+  <!-- close main div -->
+
+</body>
+
+</html>
